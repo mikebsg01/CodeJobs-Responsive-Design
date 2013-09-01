@@ -1,0 +1,450 @@
+<!doctype html>
+<!--[if lt IE 7]> <html class="ie6 oldie"> <![endif]-->
+<!--[if IE 7]>    <html class="ie7 oldie"> <![endif]-->
+<!--[if IE 8]>    <html class="ie8 oldie"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="">
+<!--<![endif]-->
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title> Maqueta Codejobs - By: Michael Serrato </title>
+<link rel="shortcut icon" type="image/icon" href="assets/ico/favicon.ico">
+
+<!-- [INITIALIZE] Tipo de Fuente -->
+<link href="font/font-code-bold.css" rel="stylesheet" type="text/css">
+<!-- [END] -->
+
+<link href="boilerplate.css" rel="stylesheet" type="text/css">
+<link href="assets/css/bootstrap.css" rel="stylesheet" type="text/css">
+<link href="assets/css/bootstrap-responsive.css" rel="stylesheet">
+<link href="style.css" rel="stylesheet" type="text/css">
+
+
+
+
+<script src="assets/js/jquery-1.8.2.min.js"></script>
+
+
+
+
+<style type="text/css">
+#apDiv1 {
+	position: absolute;
+	width: 418px;
+	height: 115px;
+	z-index: 1;
+	left: 32px;
+	top: -2px;
+}
+</style>
+<!--[if gte IE 9]-->
+  <style type="text/css">
+    .gradient {
+       filter: none;
+    }
+  </style>
+  
+  <!--<script src="http://code.jquery.com/jquery-1.8.2.min.js"></script>-->
+  
+  
+<!-- 
+Para obtener más información sobre los comentarios condicionales situados alrededor de las etiquetas html en la parte superior del archivo:
+paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/
+  
+Haga lo siguiente si usa su compilación personalizada de modernizr (http://www.modernizr.com/):
+* inserte el vínculo del código js aquí
+* elimine el vínculo situado debajo para html5shiv
+* añada la clase "no-js" a las etiquetas html en la parte superior
+* también puede eliminar el vínculo con respond.min.js si ha incluido MQ Polyfill en su compilación de modernizr 
+-->
+<!--[if lt IE 9]>
+<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+
+<script src="respond.min.js"></script>
+
+</head>
+<body>
+
+<!--[ Diseño: Responsive Design ]-->
+	
+    <!--[NAVBAR]{HTML5}-->
+    <div class="navbar navbar-inverse navbar-fixed-top">
+      <div class="navbar-inner">
+        <div class="container">
+          <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="brand" href="#"> <img src="assets/ico/logotipo_codejobs.png" width="30px" height="21px" class="icon-small-for-navbar icon-codejobs-navbar" title="Ir al Inicio" alt="Logo - CodeJobs"> </a>
+          <div class="nav-collapse collapse">
+            <ul class="nav">
+              	<li><a href="#" class="active-home"> Incio </a></li>
+                <li><a href="#" class="hover-blue"> Cursos </a></li>
+                <li><a href="#" class="hover-blue"> Blog </a></li>
+                <li><a href="#" class="hover-blue"> Acerca de </a></li>
+            </ul>
+ 			<ul class="nav pull-right">
+                <li class="dropdown"><a href="#" class="dropdown-toggle active-green option-focus-white" data-toggle="dropdown"> Sign In </a>
+                  <ul class="dropdown-menu">
+                    <li class="nav-header"> Login with </li>
+                    <li><a href="#"> Facebook </a></li>
+                    <li><a href="#"> Twitter </a></li>
+                  </ul>
+                </li>
+                <li><a href="#" class="hover-orange"> Info </a></li>  
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+	<div id="header">
+    	<div class="header-init">
+    		<div class="clear-space-64px clear-space-header">
+			</div>
+    		<div class="header-left">
+        		<a href="#">
+                	<img src="assets/ico/logotipo_codejobs_for_header.png" width="96%" class="logo-header-img" title="Ir al Inicio" alt="Logo - CodeJobs"></a>
+        	</div>
+        	<div class="header-right">
+            	<nav id="content" class="content-codejobs"> 
+                	<ul>
+                    	<li><a href="#">Git & Github</a></li>
+                        <li><a href="#">NodeJS</a></li>
+                        <li><a href="#"> Ruby on Rails</a></li>
+                        <li><a href="#"> PHP</a></li>
+                        <li><a href="#">Ruby</a></li>
+                        <li><a href="#">Zend PHP</a></li>
+                        <li><a href="#">CakePHP</a></li>
+                        <li><a href="#">jQuery  </a></li>
+                        <li><a href="#">Javascript </a></li>
+                        <li><a href="#">BackboneJS </a></li>
+                        <li><a href="#">C++ </a></li>
+                        <li><a href="#">Java </a></li>
+                        <li><a href="#">CodeIgniter </a></li>
+                     </ul>
+       			 </nav>
+            
+       			 <div class="container-form-search">   
+         			 <div id="search-content-form" class="content-wrapper">
+					<!-- <form action="#" method="get" style="margin: 0 0;">
+              				<select id="type-search" name="type-search" class="select-type-search inline-field">
+                              <option value="blog"> Blog </option>
+                              <option value="Foro"> Foro </option>
+                              <option value="codigo"> Código </option>
+              				</select>
+              				<input type="text" id="search" name="search" class="form-control input-search" placeholder="Search">-->
+              <!--			<button id="generate-search" class="btn btn-primary inline-field"><i class="icon-white icon-search"></i></button>-->
+         <!--   		</form>-->
+            
+				        <div class="navbar">
+              				<div class="navbar-inner">
+                				<form class="navbar-form pull-right form-search-adaptable">
+                        			<select id="type-search" name="type-search" class="select-type-search inline-field span2">
+                                        <option value="blog"> Blog </option>
+                                        <option value="Foro"> Foro </option>
+                                        <option value="codigo"> Código </option>
+              						</select>
+                  					<input type="text" class="span2">
+                  					<button type="submit" class="btn mobile-button-100">Submit</button>
+                				</form>
+              				</div>
+            			</div>
+                	</div>
+    				<button id="open-form-search" class="hidden btn btn-primary mobile-button-100">  <i class="icon-white icon-search"></i> </button>
+          		</div>
+        	</div>
+      	</div>
+    </div> 
+
+
+    <div class="style-for-header">
+        <div class="block-up">
+            &nbsp;
+        </div>
+    </div>
+    
+      <div class="gridContainer clearfix hidden-style">
+      <div id="section">
+        <div class="clear-space-20px">
+        </div>
+            <div id="myCarousel" class="carousel slide">
+              <ol class="carousel-indicators">
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+                <li data-target="#myCarousel" data-slide-to="2"></li>
+              </ol>
+              <!-- Carousel items -->
+              <div class="carousel-inner">
+              <div class="item active">
+                <img src="assets/img/Logo Final.jpg"  style="width: 100%; height:320px;">
+                  <div class="carousel-caption">
+                    <h4> CodeJobs </h4>
+                    <p> La Comunidad creada para Grandes Programadores </p>
+                  </div>
+                </div>
+              <div class="item">
+                <img src="assets/img/nodejs-1024x768.png"  style="width: 100%; height:320px;">
+                <div class="carousel-caption">
+                  <h4> NodeJS </h4>
+                  <p> Javascript del lado del Servidor </p>
+                </div>
+              </div>
+              <div class="item">
+                <img src="assets/img/img_carousel_03.jpg" style="width: 100%; height:320px;">
+                <div class="carousel-caption">
+                  <h4> - - - </h4>
+                  <p> - - - </p>
+                </div>
+              </div>
+              </div>
+              <!-- Carousel nav -->
+              <a class="carousel-control left" href="#myCarousel" data-slide="prev">&lsaquo;</a>
+              <a class="carousel-control right" href="#myCarousel" data-slide="next">&rsaquo;</a>
+            </div>
+      </div>
+
+      <div id="aside">
+        <div class="aside-space well">
+          <h3 class="subject theme-8"> Ingresar a CodeJobs </h3>
+          <form action="#" method="post" id="form-login-user">
+            <table width="98%" style="width: 98%;">
+              <tr>
+                <td> &nbsp; </td>
+                <td> &nbsp; </td>
+              </tr>
+              <tr>
+                <td width="23%" style="width: 23%;"> <label for="username" class="inline-block">Usuario: </label> </td>
+                <td> <input type="text" id="username" name="username" class="inline-block" style="width: 88% !important;" placeholder="Tu Nombre de Usuario" required="required"> </td>
+              </tr>
+              <tr>
+                <td width="23%" style="width: 23%;"> <label for="password" class="inline-block"> Contraseña: </label> </td>
+                <td> <input type="password" id="password" name="password" class="inline-block" style="width: 88% !important;" placeholder="Tu Contraseña" required="required"> </td>
+              </tr>
+              <tr>
+                <td> &nbsp; </td>
+                <td> &nbsp; </td>
+              </tr>
+              <tr>
+                <td colspan="2"> <input type="submit" id="login-user" name="login_user" class="btn btn-primary btn-block input-xxlarge btn-large input-free-size" style="width: 98% !important; margin: auto;  text-decoration: none !important; color: #ffffff !important;" value="Iniciar Sesión"> </td>
+              </tr>
+            </table>
+          </form>
+
+          <p> &nbsp; </p>
+          <div class="pull-right">
+            <a href="#" class="btn btn-success"> Registrarme &gt; &gt; </a>
+          </div>
+          <p> &nbsp; </p>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="clear-space-20px">
+    </div>
+
+  <!--[FOOTER]-->
+  <div id="footer">
+    <div class="copyright">
+        <p> &nbsp; </p>
+        <p>Este es el contenido de la etiqueta Div de diseño "footer"</p>
+          <p>Copyright &copy; 2013 | codejobs.biz - Programador y Desarrollador: Michael Brandon Serrato Guerrero - <br/> Correo Electrónico: <a href="mailto:programador-experto97@hotmail.com">programador-experto97@hotmail.com</a> | Todos los Derechos Reservados</p>
+      
+      
+            <table width="96%" class="table-data-footer">
+              <tr>
+                <th width="26%" height="29">Acerca de</th>
+                <th width="26%">Tutores</th>
+                <th width="26%">Links Adicionales</th>
+                <th width="22%">Social</th>
+              </tr>
+              <tr>
+                <td> - - - </td>
+                <td> - - - </td>
+                <td> - - - </td>
+                <td>&nbsp;  </td>
+              </tr>
+              <tr>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>
+                    <a href="#"><img src="assets/img/icono2.png"></a>
+                    <a href="#"><img src="assets/img/icono3.png"></a>
+                    <a href="#"><img src="assets/img/icono4.png"></a>
+                </td>
+              </tr>
+              <tr>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+              </tr>
+              <tr>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+            </tr>
+          </table>
+        <div class="clear-space-20px">
+        </div>
+      </div>
+    </div>
+
+
+	<script src="assets/js/jquery.js"></script>
+    <script src="assets/js/bootstrap-alert.js"></script>
+    <script src="assets/js/bootstrap-dropdown.js"></script>
+    <script src="assets/js/bootstrap-button.js"></script>
+    <script src="assets/js/bootstrap-collapse.js"></script>
+    <script src="assets/js/bootstrap-carousel.js"></script>
+    <script src="assets/js/bootstrap-transition.js"></script>
+    <script src="application_plugin.js"></script>
+
+
+    <script type="text/javascript">
+
+window.addEventListener("load", init);
+
+function init(){
+
+
+/*
+  var style_for_header = document.getElementsByClassName("style-for-header")[0];
+  var form_search = document.getElementById("search-content-form");
+  var content_codejobs = document.getElementsByClassName("content-codejobs")[0];
+*/
+
+
+  if ( document.width <= 480 ) {
+
+      $(".icon-codejobs-navbar").removeClass("hidden");
+
+      $(".heading-style").each(function(){
+
+        $(this).addClass("h-mobile");
+        $(this).removeClass("heading-style");
+
+      });
+
+      $("div#footer").removeClass("style-for-footer");
+
+      $(".table-data-footer").addClass("hidden");
+
+      $(".style-for-header").css({ "display" : "none", "visibility" : "hidden" });
+      $("#search-content-form").css({ "display" : "none", "visibility" : "hidden" });
+      $(".content-codejobs").css({ "display" : "none", "visibility" : "hidden" });
+  
+      
+      $("button#open-form-search").removeClass("hidden");
+      $("button#open-form-search").css("margin-bottom","5px");
+
+      $("button#open-form-search").click(function(){
+
+          $("#search-content-form").css({ "display" : "block", "visibility" : "visible" });
+
+          $(this).addClass("hidden");
+          $(this).css("margin-bottom","0px");
+
+      });
+
+  }
+
+  window.onresize = function(){
+
+    if ( document.width <= 480 ) {
+
+      $(".icon-codejobs-navbar").removeClass("hidden");
+
+      $(".heading-style").each(function(){
+
+        $(this).addClass("h-mobile");
+        $(this).removeClass("heading-style");
+
+      });
+        
+      $("div#footer").removeClass("style-for-footer");
+
+      $(".table-data-footer").addClass("hidden");
+
+      $(".style-for-header").css({ "display" : "none", "visibility" : "hidden" });
+      $("#search-content-form").css({ "display" : "none", "visibility" : "hidden" });
+      $(".content-codejobs").css({ "display" : "none", "visibility" : "hidden" });
+      
+
+      $("button#open-form-search").removeClass("hidden");
+      $("button#open-form-search").css("margin-bottom","5px");
+
+      $("button#open-form-search").click(function(){
+
+          $("#search-content-form").css({ "display" : "block", "visibility" : "visible" });
+
+          $(this).addClass("hidden");
+          $(this).css("margin-bottom","0px");
+
+      });
+
+    }else{
+
+      $(".icon-codejobs-navbar").addClass("hidden");
+
+      $(".h-mobile").each(function(){
+
+        $(this).toggleClass("h-mobile");
+        $(this).addClass("heading-style");
+
+      });
+
+      $("div#footer").addClass("style-for-footer");
+
+      $(".table-data-footer").removeClass("hidden");
+
+      $(".style-for-header").css({ "display" : "block", "visibility" : "visible" });
+      $("#search-content-form").css({ "display" : "block", "visibility" : "visible" });
+      $(".content-codejobs").css({ "display" : "block", "visibility" : "visible" });
+
+      $("button#open-form-search").addClass("hidden");
+  
+    }
+
+  }
+  
+
+}
+
+</script> 
+
+<script type="text/javascript">
+  
+  $(document).on("ready", function(){
+
+    $(".gridContainer").carousel('cycle');
+
+  });
+
+</script>
+
+
+
+
+
+
+  
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
