@@ -1,0 +1,516 @@
+<!doctype html>
+<!--[if lt IE 7]> <html class="ie6 oldie"> <![endif]-->
+<!--[if IE 7]>    <html class="ie7 oldie"> <![endif]-->
+<!--[if IE 8]>    <html class="ie8 oldie"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="">
+<!--<![endif]-->
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title> Maqueta Codejobs - By: Michael Serrato </title>
+<link rel="shortcut icon" type="image/icon" href="assets/ico/favicon.ico">
+
+<!-- [INITIALIZE] Tipo de Fuente -->
+<link href="font/font-code-bold.css" rel="stylesheet" type="text/css">
+<!-- [END] -->
+
+<link href="boilerplate.css" rel="stylesheet" type="text/css">
+<link href="assets/css/bootstrap.css" rel="stylesheet" type="text/css">
+<link href="assets/css/bootstrap-responsive.css" rel="stylesheet">
+<link href="style.css" rel="stylesheet" type="text/css">
+
+
+
+
+<script src="assets/js/jquery-1.8.2.min.js"></script>
+
+
+
+<style type="text/css">
+#apDiv1 {
+	position: absolute;
+	width: 418px;
+	height: 115px;
+	z-index: 1;
+	left: 32px;
+	top: -2px;
+}
+</style>
+<!--[if gte IE 9]-->
+  <style type="text/css">
+    .gradient {
+       filter: none;
+    }
+  </style>
+  
+  <!--<script src="http://code.jquery.com/jquery-1.8.2.min.js"></script>-->
+  
+  
+<!-- 
+Para obtener más información sobre los comentarios condicionales situados alrededor de las etiquetas html en la parte superior del archivo:
+paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/
+  
+Haga lo siguiente si usa su compilación personalizada de modernizr (http://www.modernizr.com/):
+* inserte el vínculo del código js aquí
+* elimine el vínculo situado debajo para html5shiv
+* añada la clase "no-js" a las etiquetas html en la parte superior
+* también puede eliminar el vínculo con respond.min.js si ha incluido MQ Polyfill en su compilación de modernizr 
+-->
+<!--[if lt IE 9]>
+<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+
+<script src="respond.min.js"></script>
+
+</head>
+<body>
+
+<!--[ Diseño: Responsive Design ]-->
+	
+    <!--[NAVBAR]{HTML5}-->
+    <div class="navbar navbar-inverse navbar-fixed-top">
+      <div class="navbar-inner">
+        <div class="container">
+          <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="brand" href="#"> <img src="assets/ico/logotipo_codejobs.png" width="30px" height="21px" class="icon-small-for-navbar icon-codejobs-navbar" title="Ir al Inicio" alt="Logo - CodeJobs"> </a>
+          <div class="nav-collapse collapse">
+            <ul class="nav">
+              	<li><a href="#" class="active-home"> Incio </a></li>
+                <li><a href="#" class="hover-blue"> Cursos </a></li>
+                <li><a href="#" class="hover-blue"> Blog </a></li>
+                <li><a href="#" class="hover-blue"> Acerca de </a></li>
+            </ul>
+ 			<ul class="nav pull-right">
+                <li class="dropdown"><a href="#" class="dropdown-toggle active-green option-focus-white" data-toggle="dropdown"> Sign In </a>
+                  <ul class="dropdown-menu">
+                    <li class="nav-header"> Login with </li>
+                    <li><a href="#"> Facebook </a></li>
+                    <li><a href="#"> Twitter </a></li>
+                  </ul>
+                </li>
+                <li><a href="#" class="hover-orange"> Info </a></li>  
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+	<div id="header">
+    	<div class="header-init">
+    		<div class="clear-space-64px clear-space-header">
+			</div>
+    		<div class="header-left">
+        		<a href="#">
+                	<img src="assets/ico/logotipo_codejobs_for_header.png" width="96%" class="logo-header-img" title="Ir al Inicio" alt="Logo - CodeJobs"></a>
+        	</div>
+        	<div class="header-right">
+            	<nav id="content" class="content-codejobs"> 
+                	<ul>
+                    	<li><a href="#">Git & Github</a></li>
+                        <li><a href="#">NodeJS</a></li>
+                        <li><a href="#"> Ruby on Rails</a></li>
+                        <li><a href="#"> PHP</a></li>
+                        <li><a href="#">Ruby</a></li>
+                        <li><a href="#">Zend PHP</a></li>
+                        <li><a href="#">CakePHP</a></li>
+                        <li><a href="#">jQuery  </a></li>
+                        <li><a href="#">Javascript </a></li>
+                        <li><a href="#">BackboneJS </a></li>
+                        <li><a href="#">C++ </a></li>
+                        <li><a href="#">Java </a></li>
+                        <li><a href="#">CodeIgniter </a></li>
+                     </ul>
+       			 </nav>
+            
+       			 <div class="container-form-search">   
+         			 <div id="search-content-form" class="content-wrapper">
+					<!-- <form action="#" method="get" style="margin: 0 0;">
+              				<select id="type-search" name="type-search" class="select-type-search inline-field">
+                              <option value="blog"> Blog </option>
+                              <option value="Foro"> Foro </option>
+                              <option value="codigo"> Código </option>
+              				</select>
+              				<input type="text" id="search" name="search" class="form-control input-search" placeholder="Search">-->
+              <!--			<button id="generate-search" class="btn btn-primary inline-field"><i class="icon-white icon-search"></i></button>-->
+         <!--   		</form>-->
+            
+				        <div class="navbar">
+              				<div class="navbar-inner">
+                				<form class="navbar-form pull-right form-search-adaptable">
+                        			<select id="type-search" name="type-search" class="select-type-search inline-field span2">
+                                        <option value="blog"> Blog </option>
+                                        <option value="Foro"> Foro </option>
+                                        <option value="codigo"> Código </option>
+              						</select>
+                  					<input type="text" class="span2">
+                  					<button type="submit" class="btn mobile-button-100">Submit</button>
+                				</form>
+              				</div>
+            			</div>
+                	</div>
+    				<button id="open-form-search" class="hidden btn btn-primary mobile-button-100">  <i class="icon-white icon-search"></i> </button>
+          		</div>
+        	</div>
+      	</div>
+    </div> 
+    <div class="style-for-header">
+        <div class="block-up">
+            &nbsp;
+        </div>
+    </div>
+    <br>
+	<div class="gridContainer clearfix">
+    <!--<div id="LayoutDiv1">Utilice el panel Insertar para obtener etiquetas div adicionales de diseño de cuadrícula fluida. Nota: Todas las etiquetas div de diseño deben insertarse directamente dentro de la etiqueta div 'gridContainer'. Actualmente no se admiten etiquetas div de diseño anidadas. </div>-->
+
+  		<!--[SECTION]-->
+  		<div id="section">
+      		<div class="content-wrapper">
+            
+            
+    			<!--[ARTICLE]{HTML5}-->
+					<article>
+						<div class="heading-style">
+                        	<!--[HGROUP]{HTML5}-->
+                        	<hgroup>
+        						<h1 class="text-align-center"><a href="#"> Introducción a Ruby on Rails - Framework Back-end </a></h1>
+     						</hgroup>
+    					</div>
+						<p class="date">Domingo Agosto 18, 2013 1:16 AM</p>
+    					
+                        <p> Sin duda Alguna Ruby on Rails es uno de los Frameworks  (back-end) más reconocidos por ciertas y especificas ventajas al programar en él. Ya que con gran facilidad podemos crear Aplicaciones muy complejas de manera rápida y en cuestión de minutos lo que ningún otro Lenguaje de Programación o Framework ofrece. </p>
+
+						<p> Este Framework como ya todos lo sabrán y como su mismo nombre lo dice fue creado con el Lenguaje de Programación de Ruby.  Muchos se preguntarán que es Ruby, Bueno pues Ruby es un lenguaje de Programación Totalmente Orientado a Objetos, de Multiplataforma (Lenguaje interpretado) y lenguaje de Scripts, además de ser Software Libre.  Este Lenguaje de Programación (Ruby) fue creado por Yukihiro Matsumoto también conocido como Matz, su primer versión liberada al público fue en 1995, Su sintaxis puede ser muy parecida a lenguajes como Perl y Python.
+						</p>
+                        
+                        <p>&nbsp;</p>
+    
+                        <ul class="tags">
+                          <li> Etiquetas: &nbsp; </li>
+                          <li class="label label-info"> MySQL </li>
+                          <li class="label label-info"> Workbench </li>
+                          <li class="label label-info"> Bases de Datos </li>
+                          <li class="label label-info"> PHP </li>
+                        </ul>
+                        
+                        <p>&nbsp;</p>
+    
+                        
+    					<div class="well">
+                         	 <div class="block-type-3-8"> 
+                              <img data-src="holder.js/160x120" alt="160x120" class="block-type-1" src="assets/img/foto_de_perfil.jpg">
+                              </div>
+                            
+                          	  <div class="block-type-5-8 block-text-12px">
+                              	<h3 style="color: #333 !important; font-size: 18px;"> Autor: Michael Brandon Serrato Guerrero <br></h3>
+                              	<br>
+                              	<p>&nbsp;  </p>
+                          	</div>
+                          	<br>
+                            
+                            <p>
+                            	<b>Correo:</b> programador-experto97@hotmail.com
+                            </p>
+                            <p>
+								<b>País:</b> México.
+							</p>
+                            <p>
+                            	<b>Experto en:</b> PHP, Ruby, RoR, HTML5, CSS y CSS3, Bootstrap, Javascript & JQuery, NodeJS, JAVA, VB.NET y C++.
+                            </p>
+                        </div>
+                        
+                        <p>&nbsp;</p>
+                        
+                        <div class="notice">
+                    	<h3 class="title theme-8 code-bold-font">Haz un Comentario sobre este Post: </h3>
+                    	<form action="#" method="post" id="form_comments">
+                        	<div class="block-type-2">
+                        	<label for="name" class="inline-block">Nombre: &nbsp; </label><input type="text" name="name" id="name" class="field-adaptable-3-5" required>*<br>
+                            <label for="email" class="inline-block">Email: &nbsp; </label><input type="email" name="email" id="email" class="field-adaptable-3-5" required>*<br>
+                            <label for="subject" class="inline-block">Asunto: &nbsp; </label><input type="text" name="subject" id="subject" class="field-adaptable-3-5" required>*<br><br>
+                            </div>
+                            <div class="block-type-2">
+                            <textarea name="comment" id="comment" class="field-adaptable-1" style="height: 84px;" required></textarea><br><br>
+                            </div>
+                            <input type="submit" class="btn btn-primary btn-block input-xxlarge btn-large input-free-size" id="submit_comment" value="Enviar Comentario">
+                        </form>
+                    </div>
+                    
+                    <div class="clear-space-20px">
+                    </div>
+    				
+                    <div class="comment">
+                    	<div class="block-type-2-8"> 
+                              <img data-src="holder.js/160x120" alt="160x120"  class="block-type-1" src="assets/img/img_html5.png">
+                    	</div>
+                        <div class="block-type-6-8 block-text-12px">
+                        	<h3 class="subject theme-8"> ¿Qué es la arquitectura del MVC? </h3>
+                            <h5>By: Roberto Juarez </h5>
+                            <p> Hola, podrían explicarme que es el MVC ??? </p>
+                            
+                            <div id="options" class="block-type-1">
+                            	<a href="#" class="block-type-4-8"><b class="icon-comment"></b> Responder</a>
+                                <div class="pull-right">
+                                	<div class="input-prepend input-append">
+  										<a class="add-on" href="#">0 <b class="icon-thumbs-up"></b></a>
+  										<a class="add-on" href="#"><b class="icon-thumbs-down"></b> 0</a>
+										</div>
+                                </div>
+                             </div>
+                            
+                        </div>
+                    </div>
+                    
+                     <div class="comment">
+                    	<div class="block-type-2-8"> 
+                              <img data-src="holder.js/160x120" alt="160x120"  class="block-type-1" src="assets/img/img_html5.png">
+                    	</div>
+                        <div class="block-type-6-8 block-text-12px">
+                        	<h3 class="subject theme-8"> ¿Qué es la arquitectura del MVC? </h3>
+                            <h5>By: Roberto Juarez </h5>
+                            <p> Hola, podrían explicarme que es el MVC ??? </p>
+                            
+                            <div id="options" class="block-type-1">
+                            	<a href="#" class="block-type-4-8"><b class="icon-comment"></b> Responder</a>
+                                <div class="pull-right">
+                                	<div class="input-prepend input-append">
+  										<a class="add-on" href="#">0 <b class="icon-thumbs-up"></b></a>
+  										<a class="add-on" href="#"><b class="icon-thumbs-down"></b> 0</a>
+										</div>
+                                </div>
+                             </div>
+                            
+                        </div>
+                    </div>
+                    
+                     <div class="comment">
+                    	<div class="block-type-2-8"> 
+                              <img data-src="holder.js/160x120" alt="160x120"  class="block-type-1" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAKAAAAB4CAYAAAB1ovlvAAAELklEQVR4Xu3YzUtiUQCG8WNiUdGusF1I29wEYfTvtyoh2kXrcKurgrCP4Rw4cubOvY4zCo90n1kVk77y3B/3w850Ov0O/rMAVKAjQKi8s6mAAIWAFhAgmt9xAWoALSBANL/jAtQAWkCAaH7HBagBtIAA0fyOC1ADaAEBovkdF6AG0AICRPM7LkANoAUEiOZ3XIAaQAsIEM3vuAA1gBYQIJrfcQFqAC0gQDS/4wLUAFpAgGh+xwWoAbSAANH8jgtQA2gBAaL5HRegBtACAkTzOy5ADaAFBIjmd1yAGkALCBDN77gANYAWECCa33EBagAtIEA0v+MC1ABaQIBofscFqAG0gADR/I4LUANoAQGi+R0XoAbQAgJE8zsuQA2gBQSI5ndcgBpACwgQze+4ADWAFhAgmt9xAWoALSBANL/jAtQAWqA1AL++vsLd3V14e3sLNzc3YX9/P4X/+PgIt7e34fPzM/3e7/fDcDhMP0+n0/D4+Bjia+O/i4uLcHp6utIBa9p7eXkJz8/Pi/cYDAbh/Px87b2VPtQW/lErAJbIOp3OAmBGsrOzE0ajUXh4eEjoIrTj4+ME8+DgYPF/EW/8u16vt/RQNu1l0CcnJwn509NTmEwma+9toauVP9KPB1g9w5UAM4izs7PFWSiXy2eqfIbKv0ecu7u76cx4eHiYQNZBymfUcq96VMqN+J7xzFi3t+pZd+WjvkV/2AqA4/E4XF5epjNceQnOAPb29sL7+3s6LFUATb/H95rNZuH6+jrc398vzpQRfNNe9biXcOfzeS3A8hK9RW429lF+PMBcqu6eLAPI933lJTjiipfHJoBNl9lle+VRy/iPjo5+O4s27W3siG/ZG7UaYNNlNiJouiSWZ6QMtnxwWQVgvvTHjXxPueyz5IeULbOzkY/TaoDVe8B/uSfLr40PJPHyXX1C/ttTd3xd+UCz7J7Te8CNWGffpA5E3VNwvPTGr2kikKan4G63m77SiQ8aV1dX6d4y/lyCWrb3+vr6B9h8Sf+fp2627HrrrT4DxnTVp+TyTNb0PWC+d6zer5WX4jqA1e8A86HL77PO947rMeBe3RqAXGKXlxUQoD7QAgJE8zsuQA2gBQSI5ndcgBpACwgQze+4ADWAFhAgmt9xAWoALSBANL/jAtQAWkCAaH7HBagBtIAA0fyOC1ADaAEBovkdF6AG0AICRPM7LkANoAUEiOZ3XIAaQAsIEM3vuAA1gBYQIJrfcQFqAC0gQDS/4wLUAFpAgGh+xwWoAbSAANH8jgtQA2gBAaL5HRegBtACAkTzOy5ADaAFBIjmd1yAGkALCBDN77gANYAWECCa33EBagAtIEA0v+MC1ABaQIBofscFqAG0gADR/I4LUANoAQGi+R0XoAbQAgJE8zsuQA2gBQSI5ndcgBpACwgQze+4ADWAFvgFNNYD7Zg81vEAAAAASUVORK5CYII=">
+                    	</div>
+                        <div class="block-type-6-8 block-text-12px">
+                        	<h3 class="subject theme-8"> ¿Qué es la arquitectura del MVC? </h3>
+                            <h5>By: Roberto Juarez </h5>
+                            <p> Hola, podrían explicarme que es el MVC ??? </p>
+                            <div id="options" class="block-type-1">
+                            	<a href="#" class="block-type-4-8"><b class="icon-comment"></b> Responder</a>
+                                <div class="pull-right">
+                                	<div class="input-prepend input-append">
+  										<a class="add-on" href="#">0 <b class="icon-thumbs-up"></b></a>
+  										<a class="add-on" href="#"><b class="icon-thumbs-down"></b> 0</a>
+										</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+    
+    			</article>
+                
+                <div class="clear-space-64px">
+                </div>    
+                    
+                
+
+					
+            </div>
+  		</div>
+        
+        <!--[ASIDE]-->
+  		<div id="aside">
+        
+          	<div class="aside-space">
+              	<h3> Aside {Responsive Design} </h3>
+              	<p>Este es el contenido de la etiqueta Div de diseño "aside"</p>
+              	<p>&nbsp;</p>
+          	</div>
+    
+    		<div class="clear-space-20px">
+			</div>
+    
+            <div class="aside-space">
+                <h3> Aside {Responsive Design} </h3>
+                <p>Este es el contenido de la etiqueta Div de diseño "aside"</p>
+                <p>&nbsp;</p>
+            </div>
+    	</div>
+  	</div>
+
+    <div class="clear-space-20px">
+    </div>
+
+	<!--[FOOTER]-->
+	<div id="footer">
+		<div class="copyright">
+        <p> &nbsp; </p>
+    		<p>Este es el contenido de la etiqueta Div de diseño "footer"</p>
+      		<p>Copyright &copy; 2013 | codejobs.biz - Programador y Desarrollador: Michael Brandon Serrato Guerrero - <br/> Correo Electrónico: <a href="mailto:programador-experto97@hotmail.com">programador-experto97@hotmail.com</a> | Todos los Derechos Reservados</p>
+      
+      
+            <table width="96%" class="table-data-footer">
+              <tr>
+                <th width="26%" height="29">Acerca de</th>
+                <th width="26%">Tutores</th>
+                <th width="26%">Links Adicionales</th>
+                <th width="22%">Social</th>
+              </tr>
+              <tr>
+                <td> - - - </td>
+                <td> - - - </td>
+                <td> - - - </td>
+                <td>&nbsp;  </td>
+              </tr>
+              <tr>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>
+                    <a href="#"><img src="assets/img/icono2.png"></a>
+                    <a href="#"><img src="assets/img/icono3.png"></a>
+                    <a href="#"><img src="assets/img/icono4.png"></a>
+                </td>
+              </tr>
+              <tr>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+              </tr>
+              <tr>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+            </tr>
+          </table>
+        <div class="clear-space-20px">
+        </div>
+    	</div>
+  	</div>
+
+
+	<script src="assets/js/jquery.js"></script>
+    <script src="assets/js/bootstrap-alert.js"></script>
+    <script src="assets/js/bootstrap-dropdown.js"></script>
+    <script src="assets/js/bootstrap-button.js"></script>
+    <script src="assets/js/bootstrap-collapse.js"></script>
+    <script src="application_plugin.js"></script>
+    
+<script type="text/javascript">
+
+window.addEventListener("load", init);
+
+function init(){
+
+
+/*
+  var style_for_header = document.getElementsByClassName("style-for-header")[0];
+  var form_search = document.getElementById("search-content-form");
+  var content_codejobs = document.getElementsByClassName("content-codejobs")[0];
+*/
+
+
+  if ( document.width <= 480 ) {
+
+      $(".icon-codejobs-navbar").removeClass("hidden");
+
+      $(".heading-style").each(function(){
+
+        $(this).addClass("h-mobile");
+        $(this).removeClass("heading-style");
+
+      });
+
+      $("div#footer").removeClass("style-for-footer");
+
+      $(".table-data-footer").addClass("hidden");
+
+      $(".style-for-header").css({ "display" : "none", "visibility" : "hidden" });
+      $("#search-content-form").css({ "display" : "none", "visibility" : "hidden" });
+      $(".content-codejobs").css({ "display" : "none", "visibility" : "hidden" });
+  
+      
+      $("button#open-form-search").removeClass("hidden");
+      $("button#open-form-search").css("margin-bottom","5px");
+
+      $("button#open-form-search").click(function(){
+
+          $("#search-content-form").css({ "display" : "block", "visibility" : "visible" });
+
+          $(this).addClass("hidden");
+          $(this).css("margin-bottom","0px");
+
+      });
+
+  }
+
+  window.onresize = function(){
+
+    if ( document.width <= 480 ) {
+
+      $(".icon-codejobs-navbar").removeClass("hidden");
+
+      $(".heading-style").each(function(){
+
+        $(this).addClass("h-mobile");
+        $(this).removeClass("heading-style");
+
+      });
+        
+      $("div#footer").removeClass("style-for-footer");
+
+      $(".table-data-footer").addClass("hidden");
+
+      $(".style-for-header").css({ "display" : "none", "visibility" : "hidden" });
+      $("#search-content-form").css({ "display" : "none", "visibility" : "hidden" });
+      $(".content-codejobs").css({ "display" : "none", "visibility" : "hidden" });
+      
+
+      $("button#open-form-search").removeClass("hidden");
+      $("button#open-form-search").css("margin-bottom","5px");
+
+      $("button#open-form-search").click(function(){
+
+          $("#search-content-form").css({ "display" : "block", "visibility" : "visible" });
+
+          $(this).addClass("hidden");
+          $(this).css("margin-bottom","0px");
+
+      });
+
+    }else{
+
+      $(".icon-codejobs-navbar").addClass("hidden");
+
+      $(".h-mobile").each(function(){
+
+        $(this).toggleClass("h-mobile");
+        $(this).addClass("heading-style");
+
+      });
+
+      $("div#footer").addClass("style-for-footer");
+
+      $(".table-data-footer").removeClass("hidden");
+
+      $(".style-for-header").css({ "display" : "block", "visibility" : "visible" });
+      $("#search-content-form").css({ "display" : "block", "visibility" : "visible" });
+      $(".content-codejobs").css({ "display" : "block", "visibility" : "visible" });
+
+      $("button#open-form-search").addClass("hidden");
+  
+    }
+
+  }
+  
+
+}
+
+</script>	
+
+  
+</body>
+</html>
