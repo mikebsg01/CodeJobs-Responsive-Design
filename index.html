@@ -1,4 +1,19 @@
-<!doctype html>
+<!--
+-
+- Aplicación: Codejobs Design v1.0 - By: Michael Serrato (Propuesta).
+-
+- Asunto: Rediseño Codejobs - Maqueta Final [HTML y CSS] - By Michael Serrato.
+- Importante: PROPUESTA PARA EL CONCURSO DE REDISEÑO DE CODEJOBS - Codejobs - http://www.codejobs.biz/
+- Frameworks utilizados: Twitter Bootstrap (v2.3.0) y jQuery (v1.9.1)
+-
+- AUTOR: Michael Serrato.
+-
+- Correo Electrónico: mikebsg01@gmail.com
+- Twitter: @mikebsg01
+-
+-
+-->
+<!DOCTYPE html>
 <!--[if lt IE 7]> <html class="ie6 oldie"> <![endif]-->
 <!--[if IE 7]>    <html class="ie7 oldie"> <![endif]-->
 <!--[if IE 8]>    <html class="ie8 oldie"> <![endif]-->
@@ -8,8 +23,23 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title> Maqueta Codejobs - By: Michael Serrato </title>
-<link rel="shortcut icon" type="image/icon" href="assets/ico/favicon.ico">
+<title> Rediseño de Codejobs - By: Michael Serrato </title>
+<meta name="description" content="Propuesta para el Rediseño de CodeJobs">
+<meta name="author" content="Michael Serrato">
+
+    <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="assets/js/html5shiv.js"></script>
+    <![endif]-->
+
+    <!-- Le fav and touch icons -->
+    <link rel="apple-touch-icon-precomposed" sizes="32x32" href="assets/ico/apple-touch-icon-32x32.png">
+    <link rel="apple-touch-icon-precomposed" sizes="64x64" href="assets/ico/apple-touch-icon-64x64.png">
+      <link rel="apple-touch-icon-precomposed" sizes="128x128" href="assets/ico/apple-touch-icon-128x128.png">
+                    <link rel="apple-touch-icon-precomposed" href="assets/ico/apple-touch-icon-64x64.png">
+                    <link rel="shortcut icon" href="assets/ico/favicon.png">
+                    
+    <link rel="shortcut icon" type="image/icon" href="assets/ico/favicon.ico">
 
 <!-- [INITIALIZE] Tipo de Fuente -->
 <link href="font/font-code-bold.css" rel="stylesheet" type="text/css">
@@ -19,12 +49,7 @@
 <link href="assets/css/bootstrap.css" rel="stylesheet" type="text/css">
 <link href="assets/css/bootstrap-responsive.css" rel="stylesheet">
 <link href="style.css" rel="stylesheet" type="text/css">
-
-
-
-
 <script src="assets/js/jquery-1.8.2.min.js"></script>
-
 
 
 
@@ -44,20 +69,7 @@
        filter: none;
     }
   </style>
-  
-  <!--<script src="http://code.jquery.com/jquery-1.8.2.min.js"></script>-->
-  
-  
-<!-- 
-Para obtener más información sobre los comentarios condicionales situados alrededor de las etiquetas html en la parte superior del archivo:
-paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/
-  
-Haga lo siguiente si usa su compilación personalizada de modernizr (http://www.modernizr.com/):
-* inserte el vínculo del código js aquí
-* elimine el vínculo situado debajo para html5shiv
-* añada la clase "no-js" a las etiquetas html en la parte superior
-* también puede eliminar el vínculo con respond.min.js si ha incluido MQ Polyfill en su compilación de modernizr 
--->
+
 <!--[if lt IE 9]>
 <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
 <![endif]-->
@@ -131,16 +143,6 @@ Haga lo siguiente si usa su compilación personalizada de modernizr (http://www.
             
        			 <div class="container-form-search">   
          			 <div id="search-content-form" class="content-wrapper">
-					<!-- <form action="#" method="get" style="margin: 0 0;">
-              				<select id="type-search" name="type-search" class="select-type-search inline-field">
-                              <option value="blog"> Blog </option>
-                              <option value="Foro"> Foro </option>
-                              <option value="codigo"> Código </option>
-              				</select>
-              				<input type="text" id="search" name="search" class="form-control input-search" placeholder="Search">-->
-              <!--			<button id="generate-search" class="btn btn-primary inline-field"><i class="icon-white icon-search"></i></button>-->
-         <!--   		</form>-->
-            
 				        <div class="navbar">
               				<div class="navbar-inner">
                 				<form class="navbar-form pull-right form-search-adaptable">
@@ -252,8 +254,7 @@ Haga lo siguiente si usa su compilación personalizada de modernizr (http://www.
   <div id="footer">
     <div class="copyright">
         <p> &nbsp; </p>
-        <p>Este es el contenido de la etiqueta Div de diseño "footer"</p>
-          <p>Copyright &copy; 2013 | codejobs.biz - Programador y Desarrollador: Michael Brandon Serrato Guerrero - <br/> Correo Electrónico: <a href="mailto:programador-experto97@hotmail.com">programador-experto97@hotmail.com</a> | Todos los Derechos Reservados</p>
+          <p>Copyright &copy; 2013 | codejobs.biz - Programador y Desarrollador: Michael Brandon Serrato Guerrero - <br/> Correo Electrónico: <a href="mailto:mikebsg01@gmail.com">mikebsg01@gmail.com</a> | Todos los Derechos Reservados</p>
       
       
             <table width="96%" class="table-data-footer">
@@ -305,120 +306,7 @@ Haga lo siguiente si usa su compilación personalizada de modernizr (http://www.
     <script src="assets/js/bootstrap-collapse.js"></script>
     <script src="assets/js/bootstrap-carousel.js"></script>
     <script src="assets/js/bootstrap-transition.js"></script>
-    <script src="application_plugin.js"></script>
-
-
-    <script type="text/javascript">
-
-window.addEventListener("load", init);
-
-function init(){
-
-
-/*
-  var style_for_header = document.getElementsByClassName("style-for-header")[0];
-  var form_search = document.getElementById("search-content-form");
-  var content_codejobs = document.getElementsByClassName("content-codejobs")[0];
-*/
-
-
-  if ( document.width <= 480 ) {
-
-      $(".icon-codejobs-navbar").removeClass("hidden");
-
-      $(".heading-style").each(function(){
-
-        $(this).addClass("h-mobile");
-        $(this).removeClass("heading-style");
-
-      });
-
-      $("div#footer").removeClass("style-for-footer");
-
-      $(".table-data-footer").addClass("hidden");
-
-      $(".style-for-header").css({ "display" : "none", "visibility" : "hidden" });
-      $("#search-content-form").css({ "display" : "none", "visibility" : "hidden" });
-      $(".content-codejobs").css({ "display" : "none", "visibility" : "hidden" });
-  
-      
-      $("button#open-form-search").removeClass("hidden");
-      $("button#open-form-search").css("margin-bottom","5px");
-
-      $("button#open-form-search").click(function(){
-
-          $("#search-content-form").css({ "display" : "block", "visibility" : "visible" });
-
-          $(this).addClass("hidden");
-          $(this).css("margin-bottom","0px");
-
-      });
-
-  }
-
-  window.onresize = function(){
-
-    if ( document.width <= 480 ) {
-
-      $(".icon-codejobs-navbar").removeClass("hidden");
-
-      $(".heading-style").each(function(){
-
-        $(this).addClass("h-mobile");
-        $(this).removeClass("heading-style");
-
-      });
-        
-      $("div#footer").removeClass("style-for-footer");
-
-      $(".table-data-footer").addClass("hidden");
-
-      $(".style-for-header").css({ "display" : "none", "visibility" : "hidden" });
-      $("#search-content-form").css({ "display" : "none", "visibility" : "hidden" });
-      $(".content-codejobs").css({ "display" : "none", "visibility" : "hidden" });
-      
-
-      $("button#open-form-search").removeClass("hidden");
-      $("button#open-form-search").css("margin-bottom","5px");
-
-      $("button#open-form-search").click(function(){
-
-          $("#search-content-form").css({ "display" : "block", "visibility" : "visible" });
-
-          $(this).addClass("hidden");
-          $(this).css("margin-bottom","0px");
-
-      });
-
-    }else{
-
-      $(".icon-codejobs-navbar").addClass("hidden");
-
-      $(".h-mobile").each(function(){
-
-        $(this).toggleClass("h-mobile");
-        $(this).addClass("heading-style");
-
-      });
-
-      $("div#footer").addClass("style-for-footer");
-
-      $(".table-data-footer").removeClass("hidden");
-
-      $(".style-for-header").css({ "display" : "block", "visibility" : "visible" });
-      $("#search-content-form").css({ "display" : "block", "visibility" : "visible" });
-      $(".content-codejobs").css({ "display" : "block", "visibility" : "visible" });
-
-      $("button#open-form-search").addClass("hidden");
-  
-    }
-
-  }
-  
-
-}
-
-</script> 
+    <script src="redimensionar.js"></script>
 
 <script type="text/javascript">
   
@@ -430,12 +318,6 @@ function init(){
 
 </script>
 
-
-
-
-
-
-  
 </body>
 </html>
 
