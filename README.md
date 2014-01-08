@@ -1,7 +1,7 @@
 ﻿CodeJobs-Responsive-Design
 ==========================
 
-<<<<<<< HEAD
+
 ### Descripción:
 
 Propuesta para el nuevo diseño de CodeJobs 100% adaptable y funcional en todas los distintos tipos de resoluciones, así como en los 5 navegadores más conocidos e incluso en dispositivos móviles.
@@ -25,7 +25,3 @@ Propuesta para el nuevo diseño de CodeJobs 100% adaptable y funcional en todas 
 
 
  
-
-=======
-Propuesta para el nuevo diseño de CodeJobs 100% adaptable y funcional en todas los distintos tipos de resoluciones, así como en los 5 navegadores más conocidos e incluso en dispositivos móviles.
->>>>>>> upstream/master
